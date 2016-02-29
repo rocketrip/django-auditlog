@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='django-auditlog',
-    version='0.4.1',
+    version='1.4.1',
     packages=['auditlog', 'auditlog.migrations'],
     package_dir={'': 'src'},
     url='https://github.com/jjkester/django-auditlog',
@@ -11,7 +11,7 @@ setup(
     description='Audit log app for Django',
     install_requires=[
         'Django>=1.8',
-        'django-jsonfield>=1.0.0',
+        'git+https://github.com/rocketrip/django-jsonfield.git'
     ],
     zip_safe=False
 )
