@@ -11,7 +11,6 @@ setup(
     description='Audit log app for Django',
     install_requires=[
         'Django>=1.8',
-        'git+https://github.com/rocketrip/django-jsonfield.git>1.0.3'
     ],
     zip_safe=False
 )
